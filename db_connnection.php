@@ -1,4 +1,6 @@
 <?php
+require_once session_name("Database");
+
 function OpenCon()
 {
     $dbhost = "localhost";
