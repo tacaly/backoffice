@@ -1,2 +1,2 @@
-# return
-Return seddeler
+# lager
+Lager system med stregkode scanner og seddeler.
