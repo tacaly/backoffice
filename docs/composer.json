@@ -1,0 +1,53 @@
+{
+    "name": "daux/daux.io",
+    "type": "project",
+    "license": "MIT",
+    "description": "Documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly",
+    "keywords": ["documentation", "docs", "markdown", "md"],
+    "homepage": "https://dauxio.github.io/",
+    "authors": [
+        {
+            "name": "Stéphane Goetz",
+            "homepage": "http://onigoetz.ch/"
+        },
+        {
+            "name": "Justin Walsh",
+            "homepage": "http://todaymade.com/"
+        }
+    ],
+    "bin": ["bin/daux"],
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "~6.0 || ~7.0",
+        "league/commonmark": "^1.0.0",
+        "league/plates": "~3.1",
+        "scrivo/highlight.php": "^9.15",
+        "symfony/console": "^4.4|^5.0",
+        "symfony/http-foundation": "^4.4|^5.0",
+        "symfony/mime": "^4.4|^5.0",
+        "symfony/polyfill-intl-icu": "^1.10",
+        "symfony/process": "^4.4|^5.0",
+        "webuni/front-matter": "^1.0.0",
+        "ext-json": "*"
+    },
+    "suggest":{
+        "ext-intl": "Allows to translate the modified at date"
+    },
+    "autoload": {
+        "psr-4": {
+            "Todaymade\\Daux\\": "libs/"
+        }
+    },
+    "replace": {
+        "justinwalsh/daux.io": "*"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "^1.6"
+    },
+    "scripts": {
+        "test": "php build/phpunit",
+        "test:coverage-html": "php build/phpunit --coverage-html=build/coverage",
+        "lint": "php build/php-cs-fixer fix --config=.php_cs --dry-run -v",
+        "lint:fix": "php build/php-cs-fixer fix --config=.php_cs"
+    }
+}

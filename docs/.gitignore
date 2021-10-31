@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+.idea
+/sftp-config.json
+static
+
+/vendor
+/build
+.phpunit.result.cache
+.php_cs.cache
+coverage.clover
+test-report.xml
+
+/prettier.config.js
+/.eslintrc.js
+/stylelint.config.js
