@@ -1,3 +1,5 @@
+[![PHP Composer](https://github.com/AOGGgit/backoffice/actions/workflows/php.yml/badge.svg)](https://github.com/AOGGgit/backoffice/actions/workflows/php.yml)
+
 # A&G lager System (Backoffice)
 Lager system med stregkode scanner og seddeler.
 
