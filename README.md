@@ -1,4 +1,4 @@
-# A&G lager System
+# A&G lager System (Backoffice)
 Lager system med stregkode scanner og seddeler.
 
 Bruger MVC modelen (Model-View-Controller) codeigniter 4.
