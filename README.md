@@ -11,6 +11,19 @@ Der er inbygget et API REST system og et auto-gen DOC system. http://daux.io/
  - En "Dependency Manager" så som [Composer](https://getcomposer.org/download//).
  - [PHP](https://www.php.net/downloads) for vores milijø.
 
+## Stregkode scanner
+
+Kan acceptere følgende:
+- Code 128 Auto (A, B and C)
+- Code 39
+- EAN13
+- UPCA
+- UPCE
+- ITF14 (Rectangle Bearer's bar)
+- I2of5
+- EAN8
+- ITF14 (Top/Bottom Bearer's Bar)
+
 ## Setup
 
 installere PHP og composer:
