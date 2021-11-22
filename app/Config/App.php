@@ -136,7 +136,7 @@ class App extends BaseConfig
      *
      * @var bool
      */
-    public $forceGlobalSecureRequests = false;
+    public $forceGlobalSecureRequests = true;
 
     /**
      * --------------------------------------------------------------------------
@@ -244,7 +244,7 @@ class App extends BaseConfig
      *
      * @deprecated use Config\Cookie::$prefix property instead.
      */
-    public $cookiePrefix = '';
+    public $cookiePrefix = 'aoggbackoffice';
 
     /**
      * --------------------------------------------------------------------------
@@ -257,7 +257,7 @@ class App extends BaseConfig
      *
      * @deprecated use Config\Cookie::$domain property instead.
      */
-    public $cookieDomain = '';
+    public $cookieDomain = '.backoffice.aogglab.com';
 
     /**
      * --------------------------------------------------------------------------

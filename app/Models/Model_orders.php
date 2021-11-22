@@ -64,9 +64,11 @@ class Model_orders extends CI_Model
     		$items = array(
     			'order_id' => $order_id,
     			'product_id' => $this->input->post('product')[$x],
+                'product_description' => $this->input->post('description')[$x],
     			'qty' => $this->input->post('qty')[$x],
     			'rate' => $this->input->post('rate_value')[$x],
     			'amount' => $this->input->post('amount_value')[$x],
+                'ean' => $this->input->post('ean')[$x],
     		);
 
     		$this->db->insert('orders_item', $items);
@@ -143,9 +145,11 @@ class Model_orders extends CI_Model
 	    		$items = array(
 	    			'order_id' => $id,
 	    			'product_id' => $this->input->post('product')[$x],
+                    'product_description' => $this->input->post('description')[$x],
 	    			'qty' => $this->input->post('qty')[$x],
 	    			'rate' => $this->input->post('rate_value')[$x],
 	    			'amount' => $this->input->post('amount_value')[$x],
+                    'ean' => $this->input->post('ean')[$x],
 	    		);
 	    		$this->db->insert('orders_item', $items);
 

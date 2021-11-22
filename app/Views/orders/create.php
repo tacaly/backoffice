@@ -82,9 +82,11 @@
                   <thead>
                     <tr>
                       <th style="width:50%">Product</th>
+                        <th style="width:50%">Description</th>
                       <th style="width:10%">Qty</th>
                       <th style="width:10%">Rate</th>
                       <th style="width:20%">Amount</th>
+                        <th style="width:20%">EAN</th>
                       <th style="width:10%"><button type="button" id="add_row" class="btn btn-default"><i class="fa fa-plus"></i></button></th>
                     </tr>
                   </thead>

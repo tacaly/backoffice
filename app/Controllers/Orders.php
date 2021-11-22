@@ -310,9 +310,11 @@ class Orders extends Admin_Controller
 			          <thead>
 			          <tr>
 			            <th>Product name</th>
+			            <th>Description</th>
 			            <th>Price</th>
 			            <th>Qty</th>
 			            <th>Amount</th>
+			            <th>EAN</th>
 			          </tr>
 			          </thead>
 			          <tbody>'; 

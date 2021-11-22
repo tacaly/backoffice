@@ -11,13 +11,27 @@
  *---------------------------------------------------------------
  */
 
-if (!file_exists('ipconfig.php')) {
-    exit("The <b>ipconfig.php</b> file is missing! Please make a copy of the <b>ipconfig.php.example</b> file and rename it to <b>ipconfig.php</b>");
+if (!file_exists('.env')) {
+    exit("The <b>.env</b> file is missing!");
 }
 
-require('vendor/autoload.php');
-$dotenv = new \Dotenv\Dotenv(__DIR__, 'ipconfig.php');
-$dotenv->load();
+
+
+/**
+ * Old load of dotenv
+ * require('vendor/autoload.php');
+ * $dotenv = new \Dotenv\Dotenv(__DIR__, 'ipconfig.php');
+ * $dotenv->load();
+ * 
+ * New env way to init it
+ * 
+ * use Dotenv\Dotenv;
+ * 
+ * require __DIR__ . '../vendor/autoload.php';
+ * 
+ * $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+ * $dotenv->load();
+ */
 
 /**
  * Small helper function to allow defaults for the getenv function
@@ -66,7 +80,7 @@ define('SUMEX_URL', env('SUMEX_URL'));
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production');
 
 /*
  *---------------------------------------------------------------
@@ -94,7 +108,7 @@ switch (ENVIRONMENT) {
 
     default:
         header('HTTP/1.1 503 Service Unavailable.', true, 503);
-        echo 'The application environment is not set correctly.';
+        echo 'The application environment "index.php - line 83" is not set correctly.';
         exit(1); // EXIT_ERROR
 }
 
@@ -106,7 +120,7 @@ switch (ENVIRONMENT) {
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
  */
-$system_path = 'vendor/codeigniter/framework/system';
+$system_path = 'system';
 
 /*
  *---------------------------------------------------------------
@@ -138,7 +152,7 @@ $application_folder = 'app';
  *
  * NO TRAILING SLASH!
  */
-$view_folder = '';
+$view_folder = 'app\Views';
 
 
 /*
@@ -162,7 +176,7 @@ $view_folder = '';
  */
 // The directory name, relative to the "controllers" directory.  Leave blank
 // if your controller is not in a sub-directory within the "controllers" one
-// $routing['directory'] = '';
+// $routing['directory'] = 'app\Controllers';
 
 // The controller class file name.  Example:  mycontroller
 // $routing['controller'] = '';
@@ -296,7 +310,7 @@ if (!isset($view_folder[0]) && is_dir(APPPATH . 'views' . DIRECTORY_SEPARATOR)) 
 }
 
 
-define('IPCONFIG_FILE', FCPATH . 'ipconfig.php');
+define('IPCONFIG_FILE', FCPATH . '.env');
 
 define('LOGS_FOLDER', APPPATH . 'logs' . DIRECTORY_SEPARATOR);
 
