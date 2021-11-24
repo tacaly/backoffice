@@ -23,6 +23,22 @@ Kan acceptere følgende:
 - I2of5
 - EAN8
 - ITF14 (Top/Bottom Bearer's Bar)
+- 
+#  Electronic Data Interchange (EDI) 
+https://www.youtube.com/watch?v=S4xqLDoy5hs
+
+Backoffice v1. Uses https://github.com/php-edifact/edifact for EDI 
+
+Our backoffice use WEB EDI.
+
+- GTIN = Global trade item number (GSN / EAN)
+- GLN = Global Location number ( SENDER / RECIVER )
+- GS1-128 Barcode to ID the TU (Transport unit)
+
+## EDI INFORMATION EXCHANGE
+
+The system uses the CU to ID the item name accosiated wth the TU/LU.
+if the supplier sends a SSCC code the system will automaticly input it when scanned.
 
 ## Setup
 
