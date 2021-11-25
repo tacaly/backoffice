@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6be6fe4-4b8a-4e76-8029-91509104d87e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/old/application/models/Model_edifact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/application/views/edifact/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/old/application/views/edifact" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/old" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -115,6 +114,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Frederick\OneDrive - A&amp;G Skive ApS\Documents\GitHub\return\old" />
       <recent name="C:\Users\Frederick\OneDrive - A&amp;G Skive ApS\Documents\GitHub\return\old\application\views\edifact" />
       <recent name="C:\Users\Frederick\OneDrive - A&amp;G Skive ApS\Documents\GitHub\return\old\application\views\customers" />
     </key>
@@ -144,7 +144,7 @@
       <workItem from="1637317618346" duration="599000" />
       <workItem from="1637572425466" duration="1528000" />
       <workItem from="1637773440431" duration="477000" />
-      <workItem from="1637830573863" duration="4049000" />
+      <workItem from="1637830573863" duration="4221000" />
     </task>
     <servers />
   </component>
