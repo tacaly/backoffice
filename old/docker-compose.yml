@@ -1,44 +1,28 @@
----
-version: "3"
+# ./docker-compose.yml
+
+version: '3'
 
 services:
-
-  # --- MariaDB 10.3
   db:
     container_name: "aoggbackoffice-db"
-    image: bitnami/mariadb:10.3
-    environment:
-      - MARIADB_ROOT_PASSWORD=root
-      - MARIADB_USER=root
-      - MARIADB_PASSWORD=root
-      - MARIADB_DATABASE=stock
-    ports:
-      - "127.0.0.1:3306:3306"
+    image: mysql:5.7
     volumes:
-      - aoggbackoffice-db:/bitnami
-
-  # --- PHP 7.3
-  php:
-    container_name: "aoggbackoffice-php"
-    image: bitnami/php-fpm:7.3
+      - ./mysql-dump:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: stock
+      MYSQL_USER: stock
+      MYSQL_PASSWORD: root
+    ports:
+      - "9906:3306"
+  web:
+    container_name: "aoggbackoffice-web"
+    image: php:7.2.2-apache
     depends_on:
       - db
     volumes:
-      - .:/app:delegated
-      - ./application/docker/php/php-dev.ini:/opt/bitnami/php/etc/conf.d/php.ini:ro
-
-  # --- nginx 1.16
-  nginx:
-    container_name: "aoggbackoffice-nginx"
-    image: bitnami/nginx:1.16
+      - ./:/var/www/html/
     ports:
-      - "80:8085"
-    depends_on:
-      - php
-    volumes:
-      - .:/app:delegated
-      - ./application/docker/nginx/site.conf:/opt/bitnami/nginx/conf/vhosts/site.conf:ro
-
-volumes:
-  aoggbackoffice-db:
-    driver: local
+      - "8100:80"
+    stdin_open: true
+    tty: true
