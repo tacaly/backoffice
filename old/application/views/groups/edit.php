@@ -197,6 +197,21 @@
                         } ?>></td>
                       </tr>
                       <tr>
+                          <td>Customers</td>
+                          <td><input type="checkbox" name="permission[]" id="permission" class="minimal" value="createCustomers" <?php if($serialize_permission) {
+                                  if(in_array('createCustomers', $serialize_permission)) { echo "checked"; }
+                              } ?>></td>
+                          <td><input type="checkbox" name="permission[]" id="permission" class="minimal" value="updateCustomers" <?php if($serialize_permission) {
+                                  if(in_array('updateCustomers', $serialize_permission)) { echo "checked"; }
+                              } ?>></td>
+                          <td><input type="checkbox" name="permission[]" id="permission" class="minimal" value="viewCustomers" <?php if($serialize_permission) {
+                                  if(in_array('viewCustomers', $serialize_permission)) { echo "checked"; }
+                              } ?>></td>
+                          <td><input type="checkbox" name="permission[]" id="permission" class="minimal" value="deleteCustomers" <?php if($serialize_permission) {
+                                  if(in_array('deleteCustomers', $serialize_permission)) { echo "checked"; }
+                              } ?>></td>
+                      </tr>
+                      <tr>
                         <td>Reports</td>
                         <td> - </td>
                         <td> - </td>

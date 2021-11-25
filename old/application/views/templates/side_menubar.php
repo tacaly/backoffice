@@ -140,6 +140,14 @@
             <li id="companyNav"><a href="<?php echo base_url('company/') ?>"><i class="fa fa-files-o"></i> <span>Company</span></a></li>
           <?php endif; ?>
 
+          <?php if(in_array('createCustomers', $user_permission) || in_array('updateCustomers', $user_permission) || in_array('viewCustomers', $user_permission) || in_array('deleteCustomers', $user_permission)): ?><li id="customersNav">
+            <li id="customersNav">
+               <a href="<?php echo base_url('customers/') ?>">
+                  <i class="fa fa-files-o"></i> <span>Customers</span>
+               </a>
+            </li>
+          <?php endif; ?>
+
         
 
         <!-- <li class="header">Settings</li> -->

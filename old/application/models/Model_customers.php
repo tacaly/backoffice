@@ -10,7 +10,7 @@ class Model_customers extends CI_Model
     /* get active brand infromation */
     public function getActiveCustomers()
     {
-        $sql = "SELECT * FROM `categories` WHERE active = ?";
+        $sql = "SELECT * FROM `customers` WHERE active = ?";
         $query = $this->db->query($sql, array(1));
         return $query->result_array();
     }
