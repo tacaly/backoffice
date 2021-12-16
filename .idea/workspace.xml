@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6be6fe4-4b8a-4e76-8029-91509104d87e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/old/application/models/Model_customers-DESKTOP-Q7LCAJ4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/application/views/customers/index-DESKTOP-Q7LCAJ4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/application/views/customers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/old/application/views/customers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/old/application/config/config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +149,8 @@
       <workItem from="1637572425466" duration="1528000" />
       <workItem from="1637773440431" duration="477000" />
       <workItem from="1637830573863" duration="4831000" />
+      <workItem from="1639565444236" duration="3944000" />
+      <workItem from="1639647157553" duration="923000" />
     </task>
     <servers />
   </component>
