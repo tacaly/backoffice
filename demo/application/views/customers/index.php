@@ -50,14 +50,6 @@
               <tr>
                 <th>Customers Name</th>
                 <th>Status</th>
-                <th>mobile</th>
-                <th>email</th>
-                <th>address</th>
-                <th>zipcode</th>
-                <th>city</th>
-                <th>country</th>
-                <th>birthday</th>
-                <th>store</th>
                 <?php if(in_array('updateCustomers', $user_permission) || in_array('deleteCustomers', $user_permission)): ?>
                   <th>Action</th>
                 <?php endif; ?>
@@ -73,7 +65,7 @@
       <!-- col-md-12 -->
     </div>
     <!-- /.row -->
-
+    
 
   </section>
   <!-- /.content -->
@@ -95,16 +87,8 @@
         <div class="modal-body">
 
           <div class="form-group">
-            <label for="customers_name">Customers Name</label>
+            <label for="brand_name">Customers Name</label>
             <input type="text" class="form-control" id="Customers_name" name="Customers_name" placeholder="Enter Customers name" autocomplete="off">
-          </div>
-          <div class="form-group">
-            <label for="customers_mobile">Customers Mobile</label>
-            <input type="text" class="form-control" id="Customers_mobile" name="Customers_mobile" placeholder="Enter Customers Mobile" autocomplete="off">
-          </div>
-          <div class="form-group">
-            <label for="customers_email">Customers Email</label>
-            <input type="text" class="form-control" id="Customers_email" name="Customers_email" placeholder="Enter Customers Email" autocomplete="off">
           </div>
           <div class="form-group">
             <label for="active">Status</label>
@@ -113,7 +97,6 @@
               <option value="2">Inactive</option>
             </select>
           </div>
-
         </div>
 
         <div class="modal-footer">

@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d6be6fe4-4b8a-4e76-8029-91509104d87e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/clone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/graceful-fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/legacy-streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/test/shams/core-js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/test/shams/get-own-property-symbols.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +121,8 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -151,6 +161,8 @@
       <workItem from="1639565444236" duration="3944000" />
       <workItem from="1639647157553" duration="923000" />
       <workItem from="1639999453606" duration="811000" />
+      <workItem from="1640081206888" duration="1459000" />
+      <workItem from="1640166804317" duration="1282000" />
     </task>
     <servers />
   </component>
@@ -171,5 +183,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
