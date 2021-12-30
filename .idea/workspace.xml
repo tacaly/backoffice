@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6be6fe4-4b8a-4e76-8029-91509104d87e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/clone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/graceful-fs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/legacy-streams.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/test/shams/core-js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/test/shams/get-own-property-symbols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/application/models/Model_edifact.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/application/models/Model_edifact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +155,8 @@
       <workItem from="1639999453606" duration="811000" />
       <workItem from="1640081206888" duration="1459000" />
       <workItem from="1640166804317" duration="1282000" />
+      <workItem from="1640784874925" duration="598000" />
+      <workItem from="1640865631261" duration="1521000" />
     </task>
     <servers />
   </component>

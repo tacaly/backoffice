@@ -1,5 +1,7 @@
 <?php
 
+require_once application\libraries\EDI
+
 class Model_edifact extends CI_Model
 {
 
@@ -7,5 +9,9 @@ class Model_edifact extends CI_Model
     {
         parent::__construct();
     }
+}
+class EdiPraser extends CI_Config implements CodeIgniter\API\
+{
+    API_KEY = "";
 
 }
