@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6be6fe4-4b8a-4e76-8029-91509104d87e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/apiget.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/application/models/Model_edifact.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/application/models/Model_edifact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -157,6 +157,7 @@
       <workItem from="1640166804317" duration="1282000" />
       <workItem from="1640784874925" duration="598000" />
       <workItem from="1640865631261" duration="1521000" />
+      <workItem from="1641292071272" duration="850000" />
     </task>
     <servers />
   </component>
