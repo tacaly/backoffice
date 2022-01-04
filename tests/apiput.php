@@ -1,29 +1,10 @@
 <?php
 
 $url = "https://publicapi.dddretail.com/Help/Api/GET-api-stocks-shopId-purchases-drafts";
+$url2 = "";
 
 /** @noinspection PhpExpressionResultUnusedInspection */
-$data =
-    "
-    [
-  {
-    "shopIdDraftOwner": 0,
-    "invoiceNumber": "string",
-    "sequenceNumber": 0,
-    "shopIdRecipient": 0,
-    "invoiceDate": "2022-01-04T11:13:23.377Z",
-    "paymentDate": "2022-01-04T11:13:23.377Z",
-    "receiptDate": "2022-01-04T11:13:23.377Z",
-    "supplier": 0,
-    "variantId": 0,
-    "barcode": "string",
-    "quantity": 0,
-    "updated": true,
-    "confirmed": true
-  }
-]
-    ";
-
+$data = "../jsondata/imput.json";
 $data2 = "";
 
 function callAPI($method, $url, $data){

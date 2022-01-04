@@ -1,0 +1,32 @@
+[
+  {
+    "ShopIdDraftOwner": 1,
+    "InvoiceNumber": "sample string 2",
+    "SequenceNumber": 3,
+    "ShopIdRecipient": 4,
+    "InvoiceDate": "2022-01-04T12:15:07.4112423+01:00",
+    "PaymentDate": "2022-01-04T12:15:07.4112423+01:00",
+    "ReceiptDate": "2022-01-04T12:15:07.4112423+01:00",
+    "Supplier": 8,
+    "VariantId": 9,
+    "Barcode": "sample string 10",
+    "Quantity": 11,
+    "Updated": true,
+    "Confirmed": true
+  },
+  {
+    "ShopIdDraftOwner": 1,
+    "InvoiceNumber": "sample string 2",
+    "SequenceNumber": 3,
+    "ShopIdRecipient": 4,
+    "InvoiceDate": "2022-01-04T12:15:07.4112423+01:00",
+    "PaymentDate": "2022-01-04T12:15:07.4112423+01:00",
+    "ReceiptDate": "2022-01-04T12:15:07.4112423+01:00",
+    "Supplier": 8,
+    "VariantId": 9,
+    "Barcode": "sample string 10",
+    "Quantity": 11,
+    "Updated": true,
+    "Confirmed": true
+  }
+]
