@@ -1,4 +1,6 @@
 <?php
+$url = "http://publicapi.dddretail.com/api/stocks/test/token";
+
 function callAPI($method, $url, $data){
     $curl = curl_init();
     switch ($method){
@@ -24,7 +26,7 @@ function callAPI($method, $url, $data){
     // OPTIONS:
     curl_setopt($curl, CURLOPT_URL, $url);
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
-        'APIKEY: 56DA7C89-832D-47EA-8804-564BED20E204',
+        'TOKEN: 56DA7C89-832D-47EA-8804-564BED20E204',
         'Content-Type: application/json',
     ));
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
