@@ -1,6 +1,6 @@
 [![PHP Composer](https://github.com/AOGGgit/backoffice/actions/workflows/php.yml/badge.svg)](https://github.com/AOGGgit/backoffice/actions/workflows/php.yml)
 
-# A&G lager System (Backoffice)
+# lager System (Backoffice)
 Lager system med stregkode scanner og seddeler.
 
 Bruger MVC modelen (Model-View-Controller) codeigniter 4.
