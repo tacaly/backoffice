@@ -1,4 +1,4 @@
-[![PHP Composer](https://github.com/AOGGgit/backoffice/actions/workflows/php.yml/badge.svg)](https://github.com/AOGGgit/backoffice/actions/workflows/php.yml)
+[![PHP Composer](https://github.com/tacaly/backoffice/actions/workflows/php.yml/badge.svg)](https://github.com/tacaly/backoffice/actions/workflows/php.yml)
 
 # lager System (Backoffice)
 Lager system med stregkode scanner og seddeler.
